@@ -9,6 +9,5 @@ public class Password {
             System.out.println("Enter password: ");
             val = s.nextLine();
         } while (!val.equals(password));
-        System.out.println("Great!!!");
     }
 }

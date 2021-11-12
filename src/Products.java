@@ -8,7 +8,7 @@ public class Products {
         for (int i = 0; i < products.length; i++) {
             System.out.println("Add a product");
             String value = s.nextLine();
-            if (value.trim() == "") {
+            if (value.trim().equals("")) {
                 break;
             } else {
                 products[i] = value;
