@@ -8,7 +8,7 @@ public class Password {
         String val = s.nextLine();
         if(!val.equals(password)){
             do {
-                System.out.println("Enter new password");
+                System.out.println("Enter new password: ");
                 val = s.nextLine();
             } while (!val.equals(password));
         }
