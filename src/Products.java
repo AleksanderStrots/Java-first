@@ -11,7 +11,7 @@ public class Products {
         while (true) {
             int choice = s.nextInt();
             if (choice == 1) {
-                System.out.println("Add a product: ");
+                System.out.println("Введите название: ");
                 Scanner v = new Scanner(System.in);
                 String value = v.nextLine();
                 if(!value.trim().equals("")) {
